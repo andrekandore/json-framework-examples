@@ -7,6 +7,7 @@
 //
 
 #import "TweetStreamViewController.h"
+#import <JSON/JSON.h>
 
 @implementation TweetStreamViewController
 
@@ -25,13 +26,15 @@
 
 #pragma mark - View lifecycle
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    SBJsonParser *parser = [[[SBJsonParser alloc] init] autorelease];
+    NSLog(@"XXX: %@", [parser objectWithString:@"[0, 1, 2]"]);
 }
-*/
+
 
 - (void)viewDidUnload
 {
