@@ -1,0 +1,3 @@
+[submodule "Vendor/json-framework"]
+	path = Vendor/json-framework
+	url = git@github.com:stig/json-framework.git
