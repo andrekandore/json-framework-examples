@@ -1,0 +1,10 @@
+*.mode1v3
+*.pbxuser
+build
+.DS_Store
+_site
+*.mode2v3
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+*/*.xcodeproj/*
+!*/*.xcodeproj/project.pbxproj
