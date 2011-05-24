@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TweetStream/TweetStream.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Vendor/json-framework/JSON.xcodeproj">
    </FileRef>
 </Workspace>
