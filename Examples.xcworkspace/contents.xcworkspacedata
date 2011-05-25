@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DisplayPretty/DisplayPretty.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TweetStream/TweetStream.xcodeproj">
    </FileRef>
 </Workspace>
