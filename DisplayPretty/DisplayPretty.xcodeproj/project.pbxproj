@@ -14,6 +14,7 @@
 		BC70BF0B138D35AF00638110 /* DisplayPrettyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC70BF0A138D35AF00638110 /* DisplayPrettyAppDelegate.m */; };
 		BC70BF0E138D35AF00638110 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC70BF0C138D35AF00638110 /* MainMenu.xib */; };
 		BC70BF49138D366100638110 /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC70BF48138D366100638110 /* JSON.framework */; };
+		BC70BF62138D408900638110 /* DisplayPrettyController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC70BF61138D408900638110 /* DisplayPrettyController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		BC70BF0D138D35AF00638110 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BC70BF34138D364300638110 /* JSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSON.xcodeproj; path = "/Users/Hoosband/Desktop/json-framework-examples/TweetStream/../Vendor/json-framework/JSON.xcodeproj"; sourceTree = "<absolute>"; };
 		BC70BF48138D366100638110 /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC70BF60138D408900638110 /* DisplayPrettyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayPrettyController.h; sourceTree = "<group>"; };
+		BC70BF61138D408900638110 /* DisplayPrettyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayPrettyController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +91,6 @@
 		BC70BEE8138D35AF00638110 = {
 			isa = PBXGroup;
 			children = (
-				BC70BF48138D366100638110 /* JSON.framework */,
 				BC70BF34138D364300638110 /* JSON.xcodeproj */,
 				BC70BEFD138D35AF00638110 /* DisplayPretty */,
 				BC70BEF6138D35AF00638110 /* Frameworks */,
@@ -107,6 +109,7 @@
 		BC70BEF6138D35AF00638110 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC70BF48138D366100638110 /* JSON.framework */,
 				BC70BEF7138D35AF00638110 /* Cocoa.framework */,
 				BC70BEF9138D35AF00638110 /* Other Frameworks */,
 			);
@@ -128,6 +131,8 @@
 			children = (
 				BC70BF09138D35AF00638110 /* DisplayPrettyAppDelegate.h */,
 				BC70BF0A138D35AF00638110 /* DisplayPrettyAppDelegate.m */,
+				BC70BF60138D408900638110 /* DisplayPrettyController.h */,
+				BC70BF61138D408900638110 /* DisplayPrettyController.m */,
 				BC70BF0C138D35AF00638110 /* MainMenu.xib */,
 				BC70BEFE138D35AF00638110 /* Supporting Files */,
 			);
@@ -260,6 +265,7 @@
 			files = (
 				BC70BF05138D35AF00638110 /* main.m in Sources */,
 				BC70BF0B138D35AF00638110 /* DisplayPrettyAppDelegate.m in Sources */,
+				BC70BF62138D408900638110 /* DisplayPrettyController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
