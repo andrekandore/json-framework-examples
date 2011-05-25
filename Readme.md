@@ -1,8 +1,6 @@
-# json-framework examples
+# json-framework Examples
 
-This project will hold examples using the JSON framework from:
-
-https://github.com/stig/json-framework
+This project contains examples of different ways to use [JSON framework](https://github.com/stig/json-framework).
 
 ## Building
 
@@ -12,4 +10,5 @@ To build any of the examples in this project you have to download the dependenci
 git submodule update --init
 ```
 
-
+Happy hacking!
+Stig
